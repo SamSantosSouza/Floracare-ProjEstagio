@@ -1,0 +1,7 @@
+<button mat-button (click)="submit()" class="btn-primary" [disabled]=""> 
+    @if(!disabled){
+        {{btnText}}
+    }@else {
+        carregando...
+    }
+</button>
