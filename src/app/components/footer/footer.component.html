@@ -1,0 +1,16 @@
+ <section class="form-section">
+        <div class="text">
+        <h3>Fique por dentro das novidades</h3>
+        <p> 
+            A FloraCare é uma empresa comprometida com o bem-estar, conforto e sustentabilidade. Oferecemos absorventes feitos com materiais de alta qualidade, pensando na saúde feminina e no cuidado com o meio ambiente. Nossa missão é proporcionar proteção confiável e conforto ao mesmo tempo em que promovemos práticas mais sustentáveis para um futuro melhor.
+        </p>
+    </div>
+    <form [formGroup]="footer">
+        <label for="name" >Nome</label>
+        <input id="name" formControlName="name"/>
+        <label for="email">Email</label>
+        <input id="email" formControlName="email"/>
+        <btn-primary btn-text="Quero fazer parte" 
+        (submit)="onSubmit()"></btn-primary>
+    </form>
+    </section>

@@ -1,0 +1,61 @@
+
+.form-section{
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 70px;
+        background-color: rgb(218, 218, 218);
+
+        h3 {
+            font-size: 26px;
+            font-weight: 600;
+            font-family: Poppins;
+            color: rgb(239 76 136);
+            margin-bottom: 20px;
+           
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        form {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+
+            input {
+                background: none;
+                border: none;
+                border-bottom: 1px solid rgb(0, 0, 0);
+                width: 100%;
+                height: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                font-family: Poppins;
+                font-size: 15px;
+            }
+        }
+    }
+
+    @media (min-width: 1080px) {
+        .form-section{
+            flex-direction: row;
+            gap: 115px;
+            padding: 40px 120px;
+        }
+    }
