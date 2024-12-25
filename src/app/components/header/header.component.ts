@@ -3,6 +3,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from'@angular/material/button';
 import {MatIconModule} from'@angular/material/icon';
 import { NgOptimizedImage } from '@angular/common';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -14,5 +15,14 @@ import { NgOptimizedImage } from '@angular/common';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  constructor(private router : Router) {}
 
+  goToAboutUs() {
+    this.router.navigate(['/aboutus']);
+  }
+
+  goToMain() {
+    this.router.navigate([""]);
+  }
 }
+
