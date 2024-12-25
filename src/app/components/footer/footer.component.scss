@@ -1,12 +1,16 @@
 
 .form-section{
-        bottom: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 40px 70px;
         background-color: rgb(218, 218, 218);
+        width: auto;
+    
+
+
+        
 
         h3 {
             font-size: 26px;
@@ -27,6 +31,7 @@
         .text {
             flex: 1;
         }
+
 
         form {
             flex: 1;
@@ -49,8 +54,24 @@
                 font-family: Poppins;
                 font-size: 15px;
             }
+
+            .form-error {
+                color: red;
+            }
+            
         }
-    }
+
+            
+        }
+
+        .copyright {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgb(218, 218, 218) ;
+        }
+
+
+    
 
     @media (min-width: 1080px) {
         .form-section{
