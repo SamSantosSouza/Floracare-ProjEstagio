@@ -8,9 +8,19 @@
     <form [formGroup]="footer">
         <label for="name" >Nome</label>
         <input id="name" formControlName="name"/>
+        <div class="form-error" *ngIf="footer.get('name')?.touched && footer.get('name')?.invalid">
+            <small *ngIf="footer.get('name')?.errors?.['required']">*O nome é obrigatório.</small>
+          </div>
         <label for="email">Email</label>
         <input id="email" formControlName="email"/>
-        <btn-primary btn-text="Quero fazer parte" 
-        (submit)="onSubmit()"></btn-primary>
-    </form>
-    </section>
+        <div class="form-error" *ngIf="footer.get('email')?.touched && footer.get('email')?.invalid">
+            <small *ngIf="footer.get('email')?.errors?.['required']">*O email é obrigatório.</small>
+          </div>
+
+        <btn-primary btn-text="Quero ser informado sobre possiveis novidades" (submit)="onSubmit()" [disabled]="footer.invalid || loading"></btn-primary>
+    </form> 
+</section>
+<section class="copyright">
+        <span>&copy; {{ currentYear }} FloraCare. Todos os direitos reservados.</span>
+</section>
+   
