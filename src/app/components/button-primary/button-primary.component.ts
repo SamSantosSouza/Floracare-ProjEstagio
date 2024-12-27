@@ -11,7 +11,7 @@ export class ButtonPrimaryComponent {
   @Input ("btn-text") btnText: string = ""
   @Input() disabled: boolean = false;
   @Input() loading: boolean = false;
-  @Output("submit") onSubmit = new EventEmitter();
+  @Output("submit") onSubmit = new EventEmitter<void>();
 
   submit(){
     this.onSubmit.emit();

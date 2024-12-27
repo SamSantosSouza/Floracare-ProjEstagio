@@ -1,4 +1,4 @@
-<button mat-button (click)="submit()" class="btn-primary" [disabled]=""> 
+<button mat-button (click)="submit()" class="btn-primary" [disabled]="disabled || loading"> 
     @if(!disabled){
         {{btnText}}
     }@else {

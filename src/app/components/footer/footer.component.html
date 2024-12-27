@@ -17,7 +17,7 @@
             <small *ngIf="footer.get('email')?.errors?.['required']">*O email é obrigatório.</small>
           </div>
 
-        <btn-primary btn-text="Quero ser informado sobre possiveis novidades" (submit)="onSubmit()" [disabled]="footer.invalid || loading"></btn-primary>
+        <btn-primary btn-text="Quero ser informado sobre possiveis novidades" (submit)="onSubmit()" [disabled]="footer.invalid" [loading]="loading"></btn-primary>
     </form> 
 </section>
 <section class="copyright">

@@ -16,7 +16,7 @@ import { error } from 'console';
 })
 export class FooterComponent {
   footer: FormGroup;
-  loading = false;
+  loading: boolean = false;
 
   constructor(private http: HttpClient) {
     this.footer = new FormGroup({
@@ -26,7 +26,7 @@ export class FooterComponent {
   }
 
   onSubmit(){
-    if(this.footer.value) {
+    if(this.footer.valid) {
       this.loading = true;
 
 
@@ -34,6 +34,7 @@ export class FooterComponent {
     (response) => {
       console.log( 'formulário enviado com sucesso!', response);
       this.loading = false
+      this.footer.reset()
     },
     (error) => {
       console.error('Erro ao enviar o formulário', error);
