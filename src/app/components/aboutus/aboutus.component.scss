@@ -1,0 +1,40 @@
+.banner-section{
+    align-items: center;
+    display: block;
+    object-fit: cover;
+
+  
+}
+
+
+
+.main-text {
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-family: Caprasimo;
+    text-align: center;
+    padding: 40px 70px;
+}
+
+.principal-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 20px 60px;
+
+    p {
+        font-family: Poppins;
+        font-size: medium;
+        flex: 1;
+        
+        
+    }
+
+}
+
+.imgAbout {  
+   border-radius: 20px;
+}
