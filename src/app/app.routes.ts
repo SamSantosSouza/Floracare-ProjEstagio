@@ -3,11 +3,13 @@ import { MainComponent } from './components/main/main.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
+import { ContComponent } from './components/cont/cont.component';
 
 export const routes: Routes = [
 
     {path: "", component: MainComponent},
-    {path: "aboutus", component: AboutusComponent}
+    {path: "aboutus", component: AboutusComponent},
+    {path: "cont", component: ContComponent}
     
 ];
 
