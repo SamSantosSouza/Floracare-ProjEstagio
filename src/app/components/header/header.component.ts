@@ -24,5 +24,9 @@ export class HeaderComponent {
   goToMain() {
     this.router.navigate([""]);
   }
+
+  goToCont() {
+    this.router.navigate(['/cont']);
+  }
 }
 
