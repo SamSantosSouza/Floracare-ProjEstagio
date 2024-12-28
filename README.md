@@ -1,27 +1,74 @@
-# ProjFloracare
+# 🌸 FloraCare - Empresa de Absorventes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Esse projeto contém o codigo fonte de um site para uma empresa fictícia, especializada em absorventes e outro produtos relacionados ao cuidado mentrual chamada FloraCare. O projeto foi desenvolvido utilizando pricipalmente Angular e SCSS, também foi utilizado JavaScript para a construção do Backend
 
-## Development server
+## 🛠️Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Angular:** Framework para desenvolvimento de aplicações web dinâmicas
+**SCSS:** Preporcessador CSS para estilizações mais organizadas e reutilizavéis
+**HTML:** Linguagem de marcação de hipertexto que define a estrutura e o significado do conteúdo de uma página web
+**TypeScript:** Linguagem principal para desenvolvimento no Angular
+**JavaScript:** construção do Backend
+**Canva:**Ferramenta utilizada na montagem de imagens.
 
-## Code scaffolding
+## ✨Funcionalidades
+- Home Page: página principal, apresentando a empresa, seus valores e alguns produtos brevemente.
+- Catálogo de Produtos: exibição dos produtos que a empresa vende com seus detalhes como a descrição e o preço
+- Sobre nós: página detalhando a história e o objetivo da FloraCare
+- Contato: Formulário para que visitantes entrem em contato com a empresa
+- Header: elemento essencial para a navegação do site
+- Footer: contém infomações adicionais sobre a empresa e um formulário para que a empresa possa entrar em contato com o usuário surja alguma promoção ou novo produto 
+- Responsividade: Design resposivo para dispositivos móveis e desktop
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# 🚀Como executar o projeto
 
-## Build
+## ✅requisitos
+certifique-se de ter instalado:
+- Node.js(v14 ou superior)
+- Angular CLI (v12 ou superior)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📥 Instalação
+1. Clone o repositório
 
-## Running unit tests
+git clone: 
+https://github.com/SamSantosSouza/Floracare-ProjEstagio
+cd floracare
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+instale as dependências:
+npm install
 
-## Running end-to-end tests
+2. ▶️ Executar o Projeto Frontend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para iniciar o servidor de desenvolvimento do frontend, execute:
+ng serve
 
-## Further help
+O site deverá estar disponível em http://localhost:4200, caso a porta 4200 já estiver sendo utilizada no seu dispositivo o próprio computador vai perguntar se deseja usar outra porta, diga que sim e cole o link no nevagedor ou dê um ctrl + click em cima do link
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. ▶️ Executar o Projeto Backend
+
+Navegue até o diretório do backend:
+cd FloraCare
+cd Backend
+
+Instale as dependências do backend:
+npm install
+
+Inicie o servidor backend:
+node server.js
+
+O backend estará iniciado e as respostas dos formulário serão registradas nele
+
+📂 Estrutura de Pastas
+
+backend/: Contém o código do backend.
+src/: Contém todo o código-fonte do frontend.
+app/: Componentes e lógica da aplicação.
+assets/: Imagens e outros recursos estáticos.
+server.js: Configuração principal do servidor.
+
+📞Contato
+
+- E-mail: santossamuell1235@gmail.com
+- E-mail instucional: samuel.souza189@etec.sp.gov.br
+- GitHub: SamSantosSouza
+- Instagram: samsantos._
