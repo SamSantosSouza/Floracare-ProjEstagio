@@ -1,11 +1,11 @@
-<app-header></app-header>
+
 <main>
     <section class="main-section">
         <div class="headline">
             <h1>Sua melhor versão em qualquer momento do mês</h1>
-            <button mat-button>Conheça a FloraCare</button>
+            <button mat-button (click)="goToAboutUs()">Conheça a FloraCare</button>
         </div>
-        <img ngSrc="assets/principal.png" width="500" height="500">
+        <img ngSrc="assets/principal.png" width="500" height="500" priority="">
     </section>
     <p class="text-principal">Nossos principais produtos</p>
     <section class="products-section">
