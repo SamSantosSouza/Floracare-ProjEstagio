@@ -2,6 +2,11 @@
 
 Esse projeto contém o codigo fonte de um site para uma empresa fictícia, especializada em absorventes e outro produtos relacionados ao cuidado mentrual chamada FloraCare. O projeto foi desenvolvido utilizando pricipalmente Angular e SCSS, também foi utilizado JavaScript para a construção do Backend
 
+## O que a em cada Branch
+
+ **Main:** Documento Readme
+ **Dev:** Código do projeto  
+
 ## 🛠️Tecnologias Utilizadas
 
 **Angular:** Framework para desenvolvimento de aplicações web dinâmicas
