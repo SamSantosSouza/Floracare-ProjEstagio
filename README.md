@@ -30,8 +30,7 @@ certifique-se de ter instalado:
 ## 📥 Instalação
 1. Clone o repositório
 
-git clone: 
-https://github.com/SamSantosSouza/Floracare-ProjEstagio
+git clone: https://github.com/SamSantosSouza/Floracare-ProjEstagio
 cd floracare
 
 instale as dependências:
@@ -50,11 +49,26 @@ Navegue até o diretório do backend:
 cd FloraCare
 cd Backend
 
+Navegue até o diretório do primeiro servidor:
+cd servidor-footer
+
 Instale as dependências do backend:
 npm install
 
 Inicie o servidor backend:
 node server.js
+
+Agora navegue até o diretório do segundo servidor:
+cd FloraCare
+cd Backend
+cd servidor-contact
+
+Instale as dependências:
+npm install
+
+inicie o servidor:
+node server-contact.js
+
 
 O backend estará iniciado e as respostas dos formulário serão registradas nele
 
@@ -63,8 +77,9 @@ O backend estará iniciado e as respostas dos formulário serão registradas nel
 backend/: Contém o código do backend.
 src/: Contém todo o código-fonte do frontend.
 app/: Componentes e lógica da aplicação.
-assets/: Imagens e outros recursos estáticos.
+assets/: Imagens e recursos estáticos.
 server.js: Configuração principal do servidor.
+server-contact.js: configuração do servidor da página de contato
 
 📞Contato
 
