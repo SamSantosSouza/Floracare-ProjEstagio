@@ -14,7 +14,7 @@ Esse projeto contém o codigo fonte de um site para uma empresa fictícia, espec
 - **HTML:** Linguagem de marcação de hipertexto que define a estrutura e o significado do conteúdo de uma página web
 - **TypeScript:** Linguagem principal para desenvolvimento no Angular
 - **JavaScript:** construção do Backend
-- **Canva:**Ferramenta utilizada na montagem de imagens.
+- **Canva:** Ferramenta utilizada na montagem de imagens.
 
 ## ✨Funcionalidades
 - **Home Page:** página principal, apresentando a empresa, seus valores e alguns produtos brevemente.
@@ -79,12 +79,12 @@ O backend estará iniciado e as respostas dos formulário serão registradas nel
 
 📂 Estrutura de Pastas
 
-backend/: Contém o código do backend.
-src/: Contém todo o código-fonte do frontend.
-app/: Componentes e lógica da aplicação.
-assets/: Imagens e recursos estáticos.
-server.js: Configuração principal do servidor.
-server-contact.js: configuração do servidor da página de contato
+- backend/: Contém o código do backend.
+- src/: Contém todo o código-fonte do frontend.
+- app/: Componentes e lógica da aplicação.
+- assets/: Imagens e recursos estáticos.
+- server.js: Configuração principal do servidor.
+- server-contact.js: configuração do servidor da página de contato
 
 📞Contato
 
