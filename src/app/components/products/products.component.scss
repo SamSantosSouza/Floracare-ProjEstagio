@@ -1,0 +1,35 @@
+.prod-item{
+    text-align: center;
+    padding: 0 70px;
+
+    .img-fluid{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    h4{
+        font-family: Poppins;
+    }
+
+   
+    p {
+        font-family: Poppins;
+        font-weight: 200;
+        color: rgb(133, 133, 133);
+    }
+
+    .price {
+        font-family: Poppins;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+    }
+}
+
+h2 {
+    font-family: Caprasimo;
+    color: rgb(239 76 136);
+    padding: 0 70px;
+    text-align: center;
+}
