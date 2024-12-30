@@ -38,12 +38,15 @@ certifique-se de ter instalado:
 - git clone: https://github.com/SamSantosSouza/Floracare-ProjEstagio
 - cd floracare
 
+altere para a branch dev
+-git checkout dev
+
 instale as dependências:
 - npm install
 
 2. ▶️ Executar o Projeto Frontend
 
-Para iniciar o servidor de desenvolvimento do frontend, execute:
+Para iniciar o servidor de desenvolvimento do frontend, acesse o projeto execute:
 - ng serve
 
 O site deverá estar disponível em http://localhost:4200, caso a porta 4200 já estiver sendo utilizada no seu dispositivo o próprio computador vai perguntar se deseja usar outra porta, diga que sim e cole o link no nevagedor ou dê um ctrl + click em cima do link
