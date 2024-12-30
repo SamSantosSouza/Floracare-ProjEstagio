@@ -23,4 +23,8 @@ export class MainComponent {
     goToMain() {
       this.router.navigate([""]);
     }
+
+    goToProds(){
+      this.router.navigate(['/prods'])
+    }
 }
